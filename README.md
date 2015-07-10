@@ -1,5 +1,5 @@
 # simulate_lc
-Python function that simulates a light curve based on the Timmer &amp; Koenig 1995 algorithm
+Python function that simulates a light curve based on the [Timmer &amp; Koenig 1995](http://adsabs.harvard.edu/abs/1995A%26A...300..707T) algorithm.
 
 ## Dependencies:
 1. Python 2.0 or greater
