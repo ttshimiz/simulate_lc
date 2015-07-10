@@ -8,7 +8,7 @@ Python function that simulates a light curve based on the Timmer &amp; Koenig 19
 ## Example Usage
 Make sure simulate_lc.py is in your Python path.
 Open up an IPython session.
-```
+```python
 import simulate_lc
 
 # Set the mean of the simulated light curve
@@ -32,3 +32,9 @@ sim_lc = simulate_lc.lc_sim(nn, delt, mean_lc, model, params)
 ```
 `sim_lc` is now a 1D array containing the data points of the simulated light curve.
 
+## PSD models
+The function can handle 3 different PSD models:
+
+1. Unbroken powerlaw (`model = 'unbroken'`)
+2. Sharply broken powerlaw (`model = 'sharp'`)
+3. Bended knee (`model = 'slow'`)
